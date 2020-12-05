@@ -1,0 +1,50 @@
+ body {
+	margin:0;
+ }
+ #main{
+	display:flex;
+	min-height:calc(60vh);
+}
+#main > main{
+	flex:1;
+}
+#main > nav{
+	flex:0 0 20vw;
+	background:lime;
+}
+header,  footer, main, nav{
+	padding:10px;
+}
+header, footer{
+	background:yellow;
+	height:20vh;
+}
+ .container {
+	width: 600px; 
+	margin: 0 auto; 
+	background: #f0f0f0;
+ }
+ .header {
+	font-size: 38px; 
+	text-align: center;
+	padding: 5px; 
+	background: #8fa09b; 
+	color: #fff;
+ }
+ .sidebar {
+	margin-top: 10px;
+	width: 110px;
+	padding: 0 10px;
+	float: right; 
+ }
+ .content {
+	margin-right: 130px;
+	padding: 10px; 
+	background: #fff;
+}
+ .footer {
+	background: #8fa09b;
+	color: #fff;
+	padding: 5px;
+	clear: right;
+ }
